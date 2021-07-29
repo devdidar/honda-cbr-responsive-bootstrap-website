@@ -1,0 +1,104 @@
+/* google font import  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.honda-header-bg-color {
+    background-color: #264653;
+}
+
+.honda-btn-bg-color-orange {
+    background-color: #e76f51;
+}
+
+.honda-text-color-black {
+    color: #000000;
+}
+
+.honda-text-color-orange {
+    color: #e76f51;
+}
+
+.honda-client-text-color {
+    color: #23a6f0;
+}
+
+.honda-header-image img {
+    width: 480px;
+    height: 427px;
+}
+
+.honda-feature-image img {
+    width: 288px;
+    height: 243px;
+}
+
+.honda-grayscale img {
+    filter: grayscale(100%);
+}
+
+.honda-faq-image img {
+    width: 431.2px;
+    height: 423.5px;
+}
+
+.honda-my {
+    margin-top: 100px;
+}
+
+.honda-clients-image img {
+    width: 149px;
+    height: 149px;
+}
+
+
+/* Media Query  */
+
+@media screen and (max-width: 500px) {
+    .honda-header-image img,
+    .honda-faq-image img {
+        margin-top: 40px;
+        width: 100%;
+        height: 100%;
+    }
+    .honda-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .honda-feature-image-margin {
+        margin-top: 40px;
+    }
+    .honda-faq-width {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 770px) {
+    .honda-header-image img,
+    .honda-faq-image img {
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+    }
+    .honda-fs-p-md {
+        font-size: 26px;
+    }
+    .honda-fs-h1-md {
+        font-size: 52px;
+    }
+    .honda-fs-btn-md {
+        font-size: 30px;
+    }
+    .honda-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .honda-feature-image-margin {
+        margin-top: 40px;
+    }
+    .honda-faq-width {
+        width: 100%;
+    }
+}
